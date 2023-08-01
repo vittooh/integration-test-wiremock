@@ -1,0 +1,22 @@
+{
+  "id" : "a3488346-bd79-4515-8b1b-c140664b4594",
+  "request" : {
+    "url" : "/api/v3/PublicHolidays/",
+    "method" : "GET",
+    "queryParameters" : {
+      "CountryCode" : {
+        "equalTo" : "BRA"
+      },
+      "Year" : {
+        "equalTo" : "2023"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "proxyBaseUrl" : "https://date.nager.at/api/v3/PublicHolidays/"
+  },
+  "uuid" : "a3488346-bd79-4515-8b1b-c140664b4594",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
